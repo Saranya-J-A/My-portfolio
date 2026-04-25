@@ -1,0 +1,21 @@
+/* Footer.css */
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+
+/* social icons */
+.social-icons a {
+  margin: 0 15px;
+  font-size: 24px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* hover effect */
+.social-icons a:hover {
+  color: #ccc;
+  transform: scale(1.2);
+}

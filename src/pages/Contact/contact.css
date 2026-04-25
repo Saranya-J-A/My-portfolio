@@ -1,0 +1,40 @@
+/* Contact.css */
+
+.contact {
+  background: linear-gradient(to right, #de830c, #5b86e5);
+  color: #ffffff;
+}
+
+/* form box */
+.contact-form {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 15px;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* input fields */
+.contact-form .form-control {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.contact-form .form-control::placeholder {
+  color: #f1f1f1;
+}
+
+/* button (matching theme) */
+.contact-form .btn {
+  background-color: #ffd700;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.contact-form .btn:hover {
+  background-color: #ffc107;
+}

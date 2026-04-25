@@ -1,0 +1,59 @@
+/* Projects.css */
+
+.projects {
+  background: linear-gradient(to right, #de830c, #5b86e5);
+  color: #fff;
+}
+
+/* project card */
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 30px;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+/* hover effect */
+.project-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* title */
+.project-card h5 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* description */
+.project-card p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* button spacing */
+.project-card button {
+  margin-top: 15px;
+}
+
+/* details section */
+.project-details {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+
+  backdrop-filter: blur(10px);
+}
+
+/* optional glow effect */
+.project-card:hover h5 {
+  color: #ffd700;
+}

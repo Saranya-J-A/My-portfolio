@@ -1,0 +1,33 @@
+/* Skills.css */
+
+.skills {
+  background: linear-gradient(to right, #de830c, #5b86e5);
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+/* skill cards */
+.skill-card {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* subtle hover (optional but clean) */
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* icon styling (if using icons) */
+.skill-card svg {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
