@@ -1,6 +1,6 @@
 // pages/About/index.jsx
 import { FaUserGraduate, FaCode, FaLaptopCode } from "react-icons/fa";
-import "./About.css";
+import "./about.css";
 
 const About = () => {
   return (
