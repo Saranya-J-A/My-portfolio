@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "../../Components/Button";
-import "./Project.css";
+import "./project.css";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
